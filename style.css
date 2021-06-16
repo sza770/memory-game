@@ -1,0 +1,104 @@
+
+html, body {
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    background-image: url("cover.jpg");
+    user-select: none;
+    padding: 0;
+    margin: 0;
+   height: 100%;
+  width: 100%;
+    }
+
+.flexcon {
+    display: flex;
+    justify-content: center;
+}
+
+#cardsplace {
+   /*border: 10px solid red; */
+    max-width: 100%;
+    max-height: 75vh;
+    margin: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns:repeat(auto-fit, minmax(100px,1fr ));
+    grid-template-rows:  repeat(3, 24vh);
+    grid-gap: 5px 5px;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-content: stretch;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    */
+
+    
+#cardsplace div {
+    max-height: 100% ;
+    width: auto;
+    size: ;
+/*    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;*/
+}
+    .imgdiv {
+
+    width: 100px;
+    height: 150px;
+    background: url("cover.jpg") no-repeat contain;
+   background-image: url;
+    }
+
+img {
+    height: 100%; 
+    max-width: 100%;
+   aspect-ratio: 2/3;
+   border-radius: 5%;
+   filter: drop-shadow(8px 8px 10px black);
+   object-fit: cover;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+  }
+
+.mainbody {
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+}
+/*
+.cover {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("cover.jpg") no-repeat;
+  background-size: cover;
+  padding-left: 200px;
+
+}*/
+
+img:hover {
+   filter: brightness(90%);
+}
+
+.za {
+    visibility: hidden;
+}
