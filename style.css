@@ -85,7 +85,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
-/*
+
 .cover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -93,7 +93,7 @@ h1 {
   background-size: cover;
   padding-left: 200px;
 
-}*/
+}
 
 img:hover {
    filter: brightness(90%);
